@@ -1,0 +1,57 @@
+.bag {
+  background-color: bisque;
+  margin-bottom: 10px;
+  box-shadow: 5px;
+}
+.title {
+  font-weight: 900;
+  color: brown;
+}
+.button {
+  font-size: 17px;
+  font-weight: 600;
+}
+.class-all {
+  display: flex;
+  flex-wrap: wrap;
+  .class {
+    background-color: #fefefe;
+    width: 270px;
+    height: 270px;
+    padding: 25px;
+    border: 0.0625rem solid #dadce0;
+    border-radius: 0.5rem;
+    &:hover {
+      background-color: aliceblue;
+      cursor: pointer;
+    }
+    h4 {
+      font-weight: 800;
+      font-size: 30px;
+      color: black;
+    }
+    span {
+      font-weight: 700;
+      color: steelblue;
+    }
+  }
+}
+.classroom {
+  background-color: aliceblue;
+  border-radius: 20px;
+  cursor: pointer;
+  color: black;
+  font-size: 17px;
+  font-weight: 800;
+  &:hover {
+    background-color: rgb(162, 190, 213);
+    color: #fff;
+  }
+}
+.link {
+  text-decoration: none;
+}
+.wet {
+  cursor: pointer;
+  font-weight: 800;
+}

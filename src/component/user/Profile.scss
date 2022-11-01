@@ -1,0 +1,16 @@
+.profile-container {
+  background-color: rgb(244, 246, 247);
+  width: 100vv;
+  height: 100vh;
+  .title {
+    margin-top: 10px;
+  }
+  .content {
+    padding: 10px 330px;
+    .span {
+      font-size: 18px;
+      font-weight: 700;
+      color: rgb(61, 61, 164);
+    }
+  }
+}
